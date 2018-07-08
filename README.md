@@ -17,6 +17,13 @@ Code consists of index.html, app.css, and app.js which hold all dependencies. JS
 and CSS are stored in folders nested under the root project. IMG folder holds
 background image.
 
+## Dependencies
+
+This project uses the following libraries:
+Bootstrap (for icons): https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css"
+Google Fonts: https://fonts.googleapis.com/css?family=Coda
+jQuery: https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js
+
 ## Contributing
 
 This code is a submitted project and will not be accepting contributions.
