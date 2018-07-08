@@ -7,14 +7,18 @@
 
 ## Instructions
 
-The starter project has some HTML and CSS styling to display a static version of the Memory Game project. You'll need to convert this project from a static project to an interactive one. This will require modifying the HTML and CSS files, but primarily the JavaScript file.
+This project is a traditional memory game. You will have unlimited time and tries to
+complete the matches. Cards are shuffled on each start, and the timer will begin when
+you first click on a card. From there your performance is measured on how many
+moves it takes you to complete all matches. Upon completion you'll be presented with
+your score and time.
 
-To get started, open `js/app.js` and start building out the app's functionality
-
-For specific, detailed instructions, look at the project instructions in the [Udacity Classroom](https://classroom.udacity.com/me).
+Code consists of index.html, app.css, and app.js which hold all dependencies. JS
+and CSS are stored in folders nested under the root project. IMG folder holds
+background image.
 
 ## Contributing
 
-This repository is the starter code for _all_ Udacity students. Therefore, we most likely will not accept pull requests.
+This code is a submitted project and will not be accepting contributions.
 
 For details, check out [CONTRIBUTING.md](CONTRIBUTING.md).

@@ -220,11 +220,11 @@ function startTimer () {
 
   //win screen
 function showFinalScore() {
-
+      //use finalMessage variable to string together the victory message
       let finalMessage = "Congratulations! You won!<br/>Time: " + seconds + ":" + tens + "</br> Rating: <br><ul class='stars'> " + starsContainer.innerHTML;
 
       finalMessage += "<br> Want to <span class='modal-restart'>play again</span>?";
-
+      //function for reset within - page will reload via location.reload()
       document.getElementById("modalText").innerHTML = finalMessage;
         $('.modal-restart').click(function() {
           modal.style.display = "none";
