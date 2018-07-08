@@ -101,7 +101,8 @@ function compare(currentCard, previousCard){
       currentCard.classList.remove("open", "show", "disable");
       previousCard.classList.remove("open", "show", "disable");
       openedCards = [];
-    }, 500);
+
+    }, 200);
   }
   //add moves
   addMove();
@@ -120,6 +121,7 @@ function restartGame(){
       //remove all cards
       cardsContainer.innerHTML = "";
       //reset any [remaining] related variables
+      openedCards = [];
       matchedCards = [];
       moves = 0;
       movesContainer.innerHTML = 0;
