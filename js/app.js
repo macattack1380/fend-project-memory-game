@@ -18,6 +18,7 @@ var Interval ;
 var appendTens = document.getElementById("tens")
 var appendSeconds = document.getElementById("seconds")
 
+
 // Shuffle function from http://stackoverflow.com/a/2450976
 function shuffle(array) {
     var currentIndex = array.length, temporaryValue, randomIndex;
@@ -96,16 +97,16 @@ function compare(currentCard, previousCard){
 
   } else {
 
-  //200ms wait to display clicked card
-    setTimeout(function(){
-      currentCard.classList.remove("open", "show", "disable");
-      previousCard.classList.remove("open", "show", "disable");
-      openedCards = [];
+    var timeout = setTimeout(function(){
+          currentCard.classList.remove("open", "show", "disable");
+          previousCard.classList.remove("open", "show", "disable");
+          openedCards = [];
+        }, 200);
 
-    }, 200);
-  }
   //add moves
-  addMove();
+    addMove();
+}
+
 }
 //is the game over function
 function winState(){
