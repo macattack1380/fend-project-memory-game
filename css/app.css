@@ -170,3 +170,83 @@ h1 {
     text-decoration: none;
     cursor: pointer;
 }
+
+/*Breakpoints*/
+@media screen and (max-width: 700px) {
+
+    .deck {
+        width: 500px;
+        min-height: 500px;
+        padding: 12px;
+        margin: 0 0 12px;
+    }
+
+    .deck .card {
+        height: 100px;
+        width: 100px;
+    }
+
+    .deck .card.show {
+        font-size: 35px;
+    }
+
+    .deck .card.match {
+        font-size: 35px;
+    }
+
+    .score-panel {
+        width: 200px;
+        margin-bottom: 15px;
+    }
+
+    .score-panel .score-stars-moves {
+        width: 50%;
+    }
+
+    .modal-content {
+        width: 290px;
+        height: 240px;
+        margin: 150px auto;
+    }
+}
+@media screen and (max-width: 500px) {
+
+    .deck {
+        width: 300px;
+        min-height: 310px;
+        padding: 12px;
+        margin: 0 0 12px;
+    }
+
+    .deck .card {
+        height: 60px;
+        width: 60px;
+    }
+
+    .deck .card.show {
+        font-size: 20px;
+    }
+
+    .deck .card.match {
+        font-size: 20px;
+    }
+
+    .deck .card.failure {
+        font-size: 20px;
+    }
+
+    .score-panel {
+        width:200px;
+        margin-bottom: 15px;
+    }
+
+    .score-panel .score-stars-moves {
+        width: 50%;
+    }
+
+    .modal-content {
+        width: 290px;
+        height: 240px;
+        margin: 150px auto;
+    }
+}
