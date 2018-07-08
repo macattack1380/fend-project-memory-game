@@ -96,7 +96,7 @@ function compare(currentCard, previousCard){
 
   } else {
 
-  //500ms wait to display clicked card
+  //200ms wait to display clicked card
     setTimeout(function(){
       currentCard.classList.remove("open", "show", "disable");
       previousCard.classList.remove("open", "show", "disable");
